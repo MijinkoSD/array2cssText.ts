@@ -29,7 +29,7 @@ export interface Style {
   [K: string]: ChildStyle;
 }
 
-interface ChildStyle {
+export interface ChildStyle {
   [K: string]: number | string | ChildStyle;
 }
 
